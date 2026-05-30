@@ -8,8 +8,6 @@
 
 **PlainMem — plain, portable, long-term memory for AI agents.**
 
-Install, run `pmem init`, done. Your agent remembers across sessions.
-
 Inspired by the [GenericAgent](https://github.com/lsdefine/GenericAgent) memory architecture.
 
 ## Architecture

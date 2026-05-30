@@ -8,8 +8,6 @@
 
 **PlainMem，一个面向 AI Agent 的长期记忆系统。** 可移植、纯文件存储、零依赖、不绑定任何框架。
 
-安装后运行 `pmem init` 即可。Agent 从此拥有跨会话记忆。
-
 灵感来源于 [GenericAgent](https://github.com/lsdefine/GenericAgent) 的记忆架构。
 
 ## 架构
