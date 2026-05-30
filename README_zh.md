@@ -1,8 +1,6 @@
-<div align="center">
-
 [English](./README.md) / **中文**
 
-</div>
+---
 
 **PlainMem，一个面向 AI Agent 的长期记忆系统。** 可移植、纯文件存储、零依赖、不绑定任何框架。
 
