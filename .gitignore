@@ -1,0 +1,9 @@
+# Go
+/pmem
+/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+pm/
+memory/
