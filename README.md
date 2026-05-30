@@ -1,4 +1,8 @@
-# PlainMem
+<div align="center">
+
+**English** / [中文](./README_zh.md)
+
+</div>
 
 **PlainMem — plain, portable, long-term memory for AI agents.**
 
@@ -148,14 +152,6 @@ pm/
 ├── global_mem.txt              # L2 facts
 ├── sop_index.json              # L3 metadata
 └── deploy_sop.md               # L3 SOP files
-```
-
----
-
-## Development
-
-```bash
-go build ./cmd/pmem/ && go vet ./... && go test ./internal/
 ```
 
 ---
