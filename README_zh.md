@@ -1,4 +1,8 @@
+<div align="center">
+
 [English](./README.md) / **中文**
+
+</div>
 
 ---
 
@@ -7,8 +11,6 @@
 安装后运行 `pmem init` 即可。Agent 从此拥有跨会话记忆。
 
 灵感来源于 [GenericAgent](https://github.com/lsdefine/GenericAgent) 的记忆架构。
-
----
 
 ## 架构
 
@@ -54,8 +56,6 @@
 5. **验证优先**: 存储前验证，写入前搜索
 6. **MCP 兼容**: 标准协议，支持任何 AI 主机集成
 
----
-
 ## 快速开始
 
 ```bash
@@ -69,8 +69,6 @@ pmem init
 ```
 
 完成。AGENTS.md 会自动告诉你的 Agent 如何使用 pmem。
-
----
 
 ## 命令
 
@@ -104,8 +102,6 @@ node: 22
 EOF
 ```
 
----
-
 ## 示例
 
 ```bash
@@ -138,8 +134,6 @@ pmem consolidate
 pmem verify
 ```
 
----
-
 ## 存储
 
 记忆以纯文本文件存储在 `./pm/` 下：
@@ -151,8 +145,6 @@ pm/
 ├── sop_index.json              # L3 元数据
 └── deploy_sop.md               # L3 SOP文件
 ```
-
----
 
 ## License
 

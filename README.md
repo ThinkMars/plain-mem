@@ -1,4 +1,8 @@
+<div align="center">
+
 **English** / [中文](./README_zh.md)
+
+</div>
 
 ---
 
@@ -7,8 +11,6 @@
 Install, run `pmem init`, done. Your agent remembers across sessions.
 
 Inspired by the [GenericAgent](https://github.com/lsdefine/GenericAgent) memory architecture.
-
----
 
 ## Architecture
 
@@ -54,8 +56,6 @@ Inspired by the [GenericAgent](https://github.com/lsdefine/GenericAgent) memory 
 5. **Validation First**: Verify before store, search before write
 6. **MCP Compatibility**: Standard protocol for any AI host integration
 
----
-
 ## Quick Start
 
 ```bash
@@ -69,8 +69,6 @@ pmem init
 ```
 
 That's it. Your AGENTS.md now tells your agent to use pmem.
-
----
 
 ## Commands
 
@@ -104,8 +102,6 @@ node: 22
 EOF
 ```
 
----
-
 ## Examples
 
 ```bash
@@ -138,8 +134,6 @@ pmem consolidate
 pmem verify
 ```
 
----
-
 ## Storage
 
 Memory is stored as plain files under `./pm/`:
@@ -151,8 +145,6 @@ pm/
 ├── sop_index.json              # L3 metadata
 └── deploy_sop.md               # L3 SOP files
 ```
-
----
 
 ## License
 
