@@ -51,4 +51,4 @@ Format: `<type>(<scope>): <subject>`
 
 Type: feat/fix/docs/style/refactor/perf/test/chore/revert
 
-Rules: subject concisely describes the change, scope is optional. Body (if any) explains "what and why", not "how". Do not describe unnecessary details. After generating the commit message, ask the user to review if it is reasonable.
+Rules: subject concisely describes the change, scope is optional. Body (if any) explains "what and why", not "how". Do not describe unnecessary details. After generating the commit message, ask the user to review if it is reasonable. Must use English!.
